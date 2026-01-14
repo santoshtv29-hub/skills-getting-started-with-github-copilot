@@ -63,6 +63,8 @@ section h3 {
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
 }
 
 .activity-card h4 {
@@ -141,4 +143,55 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+/* Participants section */
+.participants {
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #e8eaf6;
+  background: linear-gradient(180deg, #ffffff, #fbfbff);
+}
+
+.participants h4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  color: #1a237e;
+  font-size: 1rem;
+}
+
+.participants-badge {
+  background: #e8eaf6;
+  color: #1a237e;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+.participants-list {
+  list-style: disc;
+  margin-left: 18px;
+  margin-top: 6px;
+}
+
+.participants-list li {
+  padding: 4px 0;
+  color: #333;
+}
+
+.no-participants {
+  color: #666;
+  font-style: italic;
+  margin-top: 6px;
+}
+
+/* make capacity line a bit smaller and subtle */
+.capacity {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #444;
 }
